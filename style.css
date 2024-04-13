@@ -1,0 +1,95 @@
+.main-layout{
+    text-align: center;
+    border-top: 8px dashed grey;
+    border-bottom: 4px dashed grey;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+    border: 5px solid red;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.speed-box{
+    display: flex;
+    justify-content: center;
+}
+
+.speed{
+    font-family: sans-serif;
+    font-size: 200px;
+    margin: 0px;
+    padding: 0px !important; 
+}
+
+.mb{
+    font-family: sans-serif;
+    font-size: 60px;
+    margin: 0px;
+    margin-top: 2rem;
+    padding: 0px !important; 
+    font-weight: 600;
+}
+
+
+
+button:active {
+  top: 1px;
+  box-shadow: none;
+}
+
+.icon {
+    align-self: center;
+    left: 20px;
+}
+.btn-green {
+    margin-left: 30%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: white;
+    border: 2px solid red;
+    border-radius: 50px;
+}
+.btn-green .icon {
+    width: 24px;
+    height: 24px;
+    transition: all 0.4s ease-in-out;
+}
+.btn-green:hover .icon {
+    transform: rotate(360deg) scale(1.2);
+}
+
+.btn-info{
+    padding-right: 15px;
+    padding-left: 15px;
+    width: max-content;
+    border: 0.8px solid grey;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: inherit;
+    color: grey;
+}
+.icon-social{
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    justify-content: center;
+}
+
+.icon-s{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.mr{
+    margin-right: 1rem;
+}
